@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Remote Trackpad</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="top-bar">
+      <div id="status">Connecting...</div>
+      <button id="btn-mode" class="mode-btn">Keyboard</button>  
+    </div>
+    <div id="trackpad" class="active">
+      <div id="cursor-hint">Touch & drag to move cursor</div>
+    </div>
+    <div id="keyboard" class="hidden">
+      <textarea id="kb-input" placeholder="Type here to send to laptop..." rows="4"></textarea>
+      <div id="special-keys">
+        <button data-key="ESC" class="key-btn">Esc</button>
+        <button data-key="TAB" class="key-btn">Tab</button>
+        <button data-key="ENTER" class="key-btn">Enter</button>
+        <button data-key="BACKSPACE" class="key-btn">Back</button>
+        <button data-key="DELETE" class="key-btn">Del</button>
+        <button data-key="SPACE" class="key-btn">Space</button>
+        <button data-key="UP" class="key-btn">&uarr;</button>
+        <button data-key="DOWN" class="key-btn">&darr;</button>
+        <button data-key="LEFT" class="key-btn">&larr;</button>
+        <button data-key="RIGHT" class="key-btn">&rarr;</button>
+        <button data-key="HOME" class="key-btn">Home</button>
+        <button data-key="END" class="key-btn">End</button>
+        <button data-key="PGUP" class="key-btn">PgUp</button>
+        <button data-key="PGDN" class="key-btn">PgDn</button>
+        <button data-key="F5" class="key-btn">F5</button>
+        <button data-key="WIN" class="key-btn">Win</button>
+      </div>
+      <div id="modifier-keys">
+        <button data-mod="ctrl" class="mod-btn">Ctrl</button>
+        <button data-mod="shift" class="mod-btn">Shift</button>
+        <button data-mod="alt" class="mod-btn">Alt</button>
+      </div>
+    </div>
+    <div id="buttons">
+      <button id="btn-left" class="click-btn">Left Click</button>
+      <button id="btn-scroll" class="click-btn">Scroll</button>
+      <button id="btn-right" class="click-btn">Right Click</button>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
