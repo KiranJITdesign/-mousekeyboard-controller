@@ -8,12 +8,22 @@
 </head>
 <body>
   <div id="app">
+    <!-- TOP: Status + Click Buttons -->
     <div id="top-bar">
       <div id="status">Connecting...</div>
-      <button id="btn-mode" class="mode-btn">Keyboard</button>  
     </div>
+    <div id="click-bar">
+      <button id="btn-left" class="click-btn">Left Click</button>
+      <button id="btn-scroll" class="click-btn">Scroll</button>
+      <button id="btn-right" class="click-btn">Right Click</button>
+    </div>
+
+    <!-- MIDDLE: Trackpad / Keyboard -->
     <div id="trackpad" class="active">
+      <div id="cursor-dot"></div>
       <div id="cursor-hint">Touch & drag to move cursor</div>
+      <div id="gyro-hint">Tilt phone to move cursor</div>
+      <div id="gyro-debug"></div>
     </div>
     <div id="keyboard" class="hidden">
       <textarea id="kb-input" placeholder="Type here to send to laptop..." rows="4"></textarea>
@@ -41,10 +51,11 @@
         <button data-mod="alt" class="mod-btn">Alt</button>
       </div>
     </div>
-    <div id="buttons">
-      <button id="btn-left" class="click-btn">Left Click</button>
-      <button id="btn-scroll" class="click-btn">Scroll</button>
-      <button id="btn-right" class="click-btn">Right Click</button>
+
+    <!-- BOTTOM: Mode Buttons (Gyro + Keyboard) -->
+    <div id="bottom-bar">
+      <button id="btn-gyro" class="mode-btn">Gyro</button>
+      <button id="btn-mode" class="mode-btn">Keyboard</button>
     </div>
   </div>
   <script src="/socket.io/socket.io.js"></script>
