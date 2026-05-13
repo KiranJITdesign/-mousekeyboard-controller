@@ -96,6 +96,10 @@ https://<your-ip>:3443
 * DIY IoT & automation projects
 
   # demo
-<img width="500" alt="Remote Trackpad UI" src="https://github.com/user-attachments/assets/3ef4c214-f3c8-4fa8-b0e1-ac97c59befb9" />
+<p align="center">
+  <img width="300" alt="Remote Trackpad UI"
+    src="https://github.com/user-attachments/assets/3ef4c214-f3c8-4fa8-b0e1-ac97c59befb9" />
 
-<img width="300" alt="Remote Trackpad Screenshot" src="https://github.com/user-attachments/assets/19f0c319-ccf7-4deb-9e36-3c25ce8363a8" />  
+  <img width="300" alt="Remote Trackpad Screenshot"
+    src="https://github.com/user-attachments/assets/19f0c319-ccf7-4deb-9e36-3c25ce8363a8" />
+</p>
