@@ -96,7 +96,6 @@ https://<your-ip>:3443
 * DIY IoT & automation projects
 
   # demo
-  <img width="1080" height="2400" alt="2e6585d0-bcd6-4dae-96d1-8693841dce37" src="https://github.com/user-attachments/assets/3ef4c214-f3c8-4fa8-b0e1-ac97c59befb9" />
-
+<img width="500" alt="Remote Trackpad UI" src="https://github.com/user-attachments/assets/3ef4c214-f3c8-4fa8-b0e1-ac97c59befb9" />
 
   
