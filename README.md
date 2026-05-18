@@ -7,10 +7,13 @@ This project transforms a smartphone into a wireless touchpad, keyboard, and mot
 
  # requirment 
 •node.js installed 
+
 •same wifi should be connected to both laptop and mobile phone 
 
   # open vs code terminal (for windows only)
 1 npm install -g mousekeyboard-controller-kiran
+
+
 2 mousecontroller
 
 
