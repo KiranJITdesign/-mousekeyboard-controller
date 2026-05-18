@@ -3,6 +3,17 @@
 A real-time phone-to-PC remote trackpad system built using Node.js, Express, and Socket.IO.
 This project transforms a smartphone into a wireless touchpad, keyboard, and motion controller for a Windows computer.
 
+# Direct run in windows 
+
+ # requirment 
+•node.js installed 
+•same wifi should be connected to both laptop and mobile phone 
+
+  # open vs code terminal (for windows only)
+1 npm install -g mousekeyboard-controller-kiran
+2 mousecontroller
+
+
 ## Features
 
 * Real-time wireless mouse control
